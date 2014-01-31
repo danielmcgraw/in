@@ -31,7 +31,6 @@ function attachScrollEvent(elementId, filter) {
 		$(elementId).html($.map(elements,function(n, i) {
 			return $(n).attr('id');
 		}).join(", "));
-		// $('div').filter(filter).attr('id').join(", "));
 	});
 }
 
