@@ -13,18 +13,30 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-
         <div id="content">
-            <div id="above"><span class="big">Above</span></div>
-            <div id="right"><span class="big verical">Right</span></div>
-            <div id="below"><span class="big">Below</span></div>
-            <div id="left"><span class="big vertical">Left</span></div>
-            <div id="in"><span class="big">In</span></div>
+			<div id="overlay"></div>
+			<span class="big">Content</span>
+            <div id="above"><span class="big hcenter">Above</span></div>
+            <div id="right"><span class="big vcenter hcenter">Right</span></div>
+            <div id="below"><span class="big hcenter">Below</span></div>
+            <div id="left"><span class="big vcenter hcenter">Left</span></div>
+			<!-- <div id="contained"><span class="big hcenter">Contained</span></div>
+			<div id="outside"><span class="big hcenter">Outside</span></div> -->
+            <div id="in"><span class="big hcenter">In</span></div>
+			<div id="fixed">
+				<span class="label">Above:&nbsp</span><span id="above_content"></span><br/>
+				<span class="label">Right:&nbsp</span><span id="right_content"></span><br/>
+				<span class="label">Below:&nbsp</span><span id="below_content"></span><br/>
+				<span class="label">Left:&nbsp</span><span id="left_content"></span><br/>
+				<span class="label">Contained:&nbsp</span><span id="contained_content"></span><br/>
+				<span class="label">Outside:&nbsp</span><span id="outside_content"></span><br/>
+				<span class="label">In:&nbsp</span><span id="in_content"></span>
+			</div>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-        <script src="js/vendor/jquery.in.js"></script>
+        <script src="jquery.in.js"></script>
 
         <script src="js/main.js"></script>
     </body>
