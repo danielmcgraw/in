@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="content">
-			<div id="overlay"></div>
+			<span id="overlay"></span>
 			<span class="big">Content</span>
             <div id="above"><span class="big hcenter">Above</span></div>
             <div id="right"><span class="big vcenter hcenter">Right</span></div>
@@ -22,7 +22,17 @@
             <div id="left"><span class="big vcenter hcenter">Left</span></div>
 			<!-- <div id="contained"><span class="big hcenter">Contained</span></div>
 			<div id="outside"><span class="big hcenter">Outside</span></div> -->
-            <div id="in"><span class="big hcenter">In</span></div>
+            <div id="in">
+				<span class="big hcenter">In</span>
+				<p class="hcenter">
+					jQuery selectors for finding elements that are contained by, above, right of, below, left of, outside or in the window.
+					<br/><br/> 
+					The box in the middle of the screen is showing you the div ids, on the right, that satisfy the selector listed, on the left, based on their position relative to the window.
+					<br/>
+					Go ahead, start scrolling around and watch the selectors update.
+				</p>
+					
+			</div>
 			<div id="fixed">
 				<span class="label">Above:&nbsp</span><span id="above_content"></span><br/>
 				<span class="label">Right:&nbsp</span><span id="right_content"></span><br/>

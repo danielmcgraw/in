@@ -105,16 +105,21 @@ html, body {
     border-right:1px solid rgba(255, 51, 0, 0.75);
 }
 
+#in p{
+	top: 20%;
+}
+
 #fixed {
 	width: 30%;
 	position: fixed;
 	left: 50%;
 	top: 50%;
 	border: 1px solid;
-	margin: 0 0 0 -10.5%;
+	margin: 0 0 0 -16%;
 }
 
 .big {
+	color: #444;
     font-size: 10em;
 }
 
